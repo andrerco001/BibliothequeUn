@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bibliothèque</string>
+    <string name="connection">Connection</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="courriel">Courriel</string>
+    <string name="todo">TODO</string>
+    <string name="rechercher">Rechercher livre</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="book_title">Book Title</string>
+</resources>
