@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="246dp"
-        android:layout_height="120dp"
+        android:layout_width="272dp"
+        android:layout_height="182dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -22,6 +22,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237"
+        app:layout_constraintVertical_bias="0.322"
         app:srcCompat="@mipmap/logodeux" />
 </android.support.constraint.ConstraintLayout>

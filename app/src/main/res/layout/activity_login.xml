@@ -15,7 +15,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="48dp"
         android:ems="10"
         android:hint="@string/courriel"
         android:inputType="textEmailAddress"
@@ -34,7 +34,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:ems="10"
         android:hint="@string/mot_de_passe"
         android:inputType="textPassword"
@@ -63,7 +63,7 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etModDePasse"
-        app:layout_constraintVertical_bias="0.286" />
+        app:layout_constraintVertical_bias="0.313" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -73,7 +73,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="96dp"
         android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
