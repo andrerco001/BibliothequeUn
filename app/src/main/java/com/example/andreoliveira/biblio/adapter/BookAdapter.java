@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.andreoliveira.biblio.R;
@@ -50,6 +51,9 @@ public class BookAdapter extends BaseAdapter
 
         if (books.get(position) != null)
         {
+            //final ImageView imageView5 = convertView.findViewById(R.id.imageView5);
+            //imageView5.setImageAlpha(books.get(position).getThumbnail());
+
             final TextView tvBook = convertView.findViewById(R.id.tvBook);
             tvBook.setText(books.get(position).getTitle());
         }

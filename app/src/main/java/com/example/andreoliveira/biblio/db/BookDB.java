@@ -30,8 +30,8 @@ public class BookDB
             {
                 Book book = new Book();
                 book.setId(rs.getLong("id_Livre"));
-                book.setTitle(rs.getString("titre"));;
-
+                book.setTitle(rs.getString("titre"));
+                // book.setThumbnail(rs.getInt("image"));
                 books.add(book);
             }
 
